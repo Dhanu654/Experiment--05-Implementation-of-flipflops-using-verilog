@@ -1,9 +1,10 @@
-# Experiment--05-Implementation-of-flipflops-using-verilog
-### AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
+## Experiment--05-Implementation-of-flipflops-using-verilog
+### AIM: 
+To implement all the flipflops using verilog and validating their functionality using their functional tables
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
 ### THEORY 
-SR Flip-Flop
+# SR Flip-Flop
 SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
 ![image](https://user-images.githubusercontent.com/36288975/167910294-bb550548-b1dc-4cba-9044-31d9037d476b.png)
@@ -102,15 +103,32 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
 
+![Screenshot 2024-01-02 210450](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/12fa8fc3-7d84-4c40-8ca8-6e8822eae13e)
+![Screenshot 2024-01-02 210501](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/a57c9ff3-3e30-4d84-926a-7c35f9cbc55b)
 
 
 ### PROGRAM 
 /*
+~~~
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+~~~
+Developed by: Dhanusya K 
+~~~
+RegisterNumber: 23006651
+~~~
+# D FLIPFLOP:
+![Screenshot 2024-01-02 205852](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/06cea34e-f11b-4667-aa73-6c5b2bfd2d7c)
+
+# T FLIPFLOP:
+![Screenshot 2024-01-02 210018](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/95e452d9-1030-4845-86b9-9eb21e4253b9)
+
+# JK FLIPFLOP:
+![Screenshot 2024-01-02 205921](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/0b78f3b5-150f-4fa2-a024-7c7abcdc60f6)
+
+# SR FLIPFLOP:
+![Screenshot 2024-01-02 205951](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/55a7d76b-49ad-4ffa-9bcc-5598fcfd0707)
+
 */
 
 
@@ -120,8 +138,17 @@ RegisterNumber:
 
 ### RTL LOGIC FOR FLIPFLOPS 
 
+# D FLIPFLOP:
+![Screenshot 2024-01-02 205907](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/fe374dec-f1af-4efd-8181-9249b286124b)
 
+# T FLIPFLOP:
+![Screenshot 2024-01-02 210035](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/4f0af503-e431-490c-98b1-2aff75e15316)
 
+# JK FLIPFLOP:
+![Screenshot 2024-01-02 205935](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/a1f8a11d-2d99-45f9-9a25-b569e287a32a)
+
+# SR FLIPFLOP:
+![Screenshot 2024-01-02 210005](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/d54f15c2-2b34-467c-92e9-d3b153e43666)
 
 
 
@@ -129,12 +156,20 @@ RegisterNumber:
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
+# D FLIPFLOP:
+![image](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/f7ac7417-56e4-432a-b8d3-847e8d97848a)
+
+
+# T FLIPFLOP:
+![image](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/880a2c42-aa31-440d-9648-8f85a88989ac)
+
+# JK FLIPFLOP:
+![image](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/a4fc73d5-7ba4-4e60-ad23-f3382c89688f)
+
+# SR FLIPFLOP:
+![image](https://github.com/Dhanu654/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514965/6acf66da-babe-4001-8f29-9937e9acdae2)
 
 
 
-
-
-
-
-
-### RESULTS 
+### RESULTS :
+Thus the program for flipflops is implemented and its functional table is successfully verified in quartus using Verilog programming.
